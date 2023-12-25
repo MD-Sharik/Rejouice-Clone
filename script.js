@@ -238,6 +238,7 @@ gsap.to(menuBar,{
   duration:0.8,
 })
 gsap.to(mencontent,{
+  display:"block",
   opacity:1,
   scale:1,
   delay:0.5,
@@ -247,6 +248,7 @@ gsap.to(mencontent,{
 close.addEventListener("click",()=>{
   gsap.to(mencontent,{
     opacity:0,
+    display:"none",
     
   })
   gsap.to(menuBar,{
